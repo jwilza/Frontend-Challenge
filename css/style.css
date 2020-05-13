@@ -1,0 +1,109 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dadada;
+  font-size: 10px;
+  font-family: sans-serif;
+  line-height: 1.7em;
+}
+
+.container {
+  background-image: url("/images/Map.png");
+  margin: 0 auto;
+  width: 500px;
+}
+
+h1 {
+  font-size: 1.4em;
+  font-weight:740;
+}
+
+h2 {
+  font-size: 1.2em;
+  font-weight:740;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+/** -- Set uniform color of both nav sections **/
+nav {
+  background-color: #025F7C;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  background-image: url("/images/main-nav.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+
+/** Inserts the map background image **/
+.background-image {
+  background-image: url("/images/Map.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  display:inline-block;
+  height: 100px;
+  width: 90%;
+  padding: 45px 300px 0 0;
+  margin: 3%;
+}
+
+.route-nav {
+  color: #FFFFFF;
+  font-size: 2.5em;
+  background-color: #025F7C;
+  padding-bottom: 30px;
+}
+
+.nav-line {
+  padding-top: 30px;
+  padding-left: 60px;
+}
+
+.nav-frequency {
+  padding-left: 300px;
+  margin-top: -20px;
+}
+
+.route-details {
+  border-bottom: 1px solid #9C9A9A;
+  background-color: white;
+  padding:  10px 0px 10px 0px;
+  margin-top:auto;
+}
+
+
+/* Hover attribute with different background color */
+.route-details:hover {
+  background-color:#969191;
+}
+
+.content {
+  margin: 0px 0px 0px 100px;
+}
+
+.arrow {
+  float: right;
+  padding-right: 30px;
+  margin-top: -30px;
+}
+
+.line {
+  float:left;
+  font-size: 2em;
+  margin-top: -30px;
+  padding-left: 30px;
+}
+
+.frequency {
+  float: right;
+  font-size: 1.5em;
+  margin-top: -30px;
+  margin-right:50px;
+  padding-right: 50px;
+  }
