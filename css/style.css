@@ -34,7 +34,7 @@ nav {
   background-color: #025F7C;
   padding-top: 30px;
   padding-bottom: 70px;
-  background-image: url("/images/main-nav.png");
+  background-image: url("/images/main-nav.PNG");
   background-repeat: no-repeat;
   background-size:cover;
   background-position: center;
@@ -62,11 +62,11 @@ nav {
 
 .nav-line {
   padding-top: 30px;
-  padding-left: 60px;
+  padding-left: 30px;
 }
 
 .nav-frequency {
-  padding-left: 300px;
+  padding-left: 325px;
   margin-top: -20px;
 }
 
