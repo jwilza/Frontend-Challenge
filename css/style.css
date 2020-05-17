@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  background-image: url("/images/Map.png");
+  background-image: url("../images/Map.png");
   margin: 0 auto;
   width: 500px;
 }
@@ -34,15 +34,15 @@ nav {
   background-color: #025F7C;
   padding-top: 30px;
   padding-bottom: 70px;
-  background-image: url("/images/main-nav.PNG");
+  background-image: url("../images/main-nav.PNG");
   background-repeat: no-repeat;
   background-size:cover;
   background-position: center;
 }
 
 /** Inserts the map background image **/
-.background-image {
-  background-image: url("/images/Map.png");
+.map-image {
+  background-image: url("images/Map.png");
   background-repeat: no-repeat;
   background-size:cover;
   background-position: center;
